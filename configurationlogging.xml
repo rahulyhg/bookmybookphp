@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log4php:configuration xmlns:log4php="http://logging.apache.org/log4php/">
+    <appender name="fileappender" class="LoggerAppenderFile">
+        <param name="file" value="file-bmb.log" />
+    </appender>
+    <logger name="Something">
+        <appender_ref ref="fileappender" />
+    <logger/>
+</log4php:configuration>

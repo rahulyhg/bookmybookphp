@@ -16,7 +16,7 @@ function all_books()
 {
 include 'config.php';
 
-$sql = "SELECT * FROM `BOOK`";
+$sql = "SELECT * FROM `BOOK` ";
 
 $book_data = mysqli_query($db,$sql);
 $myArray = array();
